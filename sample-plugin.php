@@ -10,3 +10,4 @@ Text Domain: sample-plugin
 Domain Path: /languages
 */
 
+wp_parse_url('http://www.trajano.net');
