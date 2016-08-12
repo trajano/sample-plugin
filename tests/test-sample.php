@@ -12,7 +12,7 @@ class SampleTest extends WP_UnitTestCase {
 	}
 
 	function testCustomMethod() {
-		$this->assertEquals( my_custom_function(), "hello" );
+		$this->assertEquals( my_custom_function_in_main(), "hello" );
 	}
 
 }

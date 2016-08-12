@@ -12,3 +12,7 @@ Domain Path: /languages
 if ( ! defined( 'ABSPATH' ) ) exit; 
 wp_parse_url('http://www.trajano.net');
 require_once('function.php');
+
+function my_custom_function_in_main() {
+  return "hello";
+}
