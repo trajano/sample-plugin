@@ -9,6 +9,6 @@ Plugin URI: PLUGIN SITE HERE
 Text Domain: sample-plugin
 Domain Path: /languages
 */
-
+if ( ! defined( 'ABSPATH' ) ) exit; 
 wp_parse_url('http://www.trajano.net');
 require_once('./yelp-oembed.php');
