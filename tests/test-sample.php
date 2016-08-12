@@ -11,5 +11,9 @@ class SampleTest extends WP_UnitTestCase {
 		$this->assertNotNull( wp_parse_url('http://www.trajano.net/') );
 	}
 
+	function testCustomMethod() {
+		$this->assertEquals( my_custom_function(), "hello" );
+	}
+
 }
 
