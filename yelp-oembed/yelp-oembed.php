@@ -11,3 +11,4 @@ Domain Path: /languages
 */
 
 wp_parse_url('http://www.trajano.net');
+require_once('./yelp-oembed.php');
